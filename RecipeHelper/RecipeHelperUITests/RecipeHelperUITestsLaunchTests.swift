@@ -1,13 +1,13 @@
 //
-//  Tests_macOSLaunchTests.swift
-//  Tests macOS
+//  RecipeHelperUITestsLaunchTests.swift
+//  RecipeHelperUITests
 //
 //  Created by Quinton Price on 4/27/22.
 //
 
 import XCTest
 
-class Tests_macOSLaunchTests: XCTestCase {
+class RecipeHelperUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
