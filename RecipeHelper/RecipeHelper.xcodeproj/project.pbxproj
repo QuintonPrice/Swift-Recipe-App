@@ -14,6 +14,7 @@
 		386E62AF281A0069007D06B8 /* RecipeHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E62AE281A0069007D06B8 /* RecipeHelperTests.swift */; };
 		386E62B9281A0069007D06B8 /* RecipeHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E62B8281A0069007D06B8 /* RecipeHelperUITests.swift */; };
 		386E62BB281A0069007D06B8 /* RecipeHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E62BA281A0069007D06B8 /* RecipeHelperUITestsLaunchTests.swift */; };
+		38B72F87281B138B00FDE47A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B72F86281B138B00FDE47A /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		386E62B4281A0069007D06B8 /* RecipeHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386E62B8281A0069007D06B8 /* RecipeHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelperUITests.swift; sourceTree = "<group>"; };
 		386E62BA281A0069007D06B8 /* RecipeHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38B72F86281B138B00FDE47A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				386E629F281A0067007D06B8 /* ContentView.swift */,
 				386E62A1281A0069007D06B8 /* Assets.xcassets */,
 				386E62A3281A0069007D06B8 /* Preview Content */,
+				38B72F86281B138B00FDE47A /* AccountView.swift */,
 			);
 			path = RecipeHelper;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B72F87281B138B00FDE47A /* AccountView.swift in Sources */,
 				386E62A0281A0067007D06B8 /* ContentView.swift in Sources */,
 				386E629E281A0067007D06B8 /* RecipeHelperApp.swift in Sources */,
 			);
