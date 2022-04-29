@@ -9,16 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var tapCount = 0;
-    @State private var name = "";
-    let recipeNames = ["Fajitas", "Burritos", "Sandwiches", "Quesadillas"]
-    
     var body: some View {
-        NavigationView {
-        }
         TabView {
-            Text("Home Tab")
-                .font(.system(size: 30, weight: .bold, design: .rounded))
+            HomeView()
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
@@ -33,7 +26,6 @@ struct ContentView: View {
                     Image(systemName: "fork.knife.circle.fill")
                     Text("Recipes")
                 }
-
         }
         
     }
