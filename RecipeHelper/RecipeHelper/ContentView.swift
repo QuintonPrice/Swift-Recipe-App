@@ -26,6 +26,11 @@ struct ContentView: View {
                     Image(systemName: "fork.knife.circle.fill")
                     Text("Recipes")
                 }
+            LoginView()
+                .tabItem {
+                    Image(systemName:"person.fill")
+                    Text("Login")
+                }
         }
         
     }
