@@ -15,12 +15,27 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            Form {
-                ForEach(0 ..< 100) {
-                    Text("Row \($0)")
-                }
-            }
         }
+        TabView {
+            Text("Home Tab")
+                .font(.system(size: 30, weight: .bold, design: .rounded))
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+            AccountView()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Account")
+                }
+            RecipeView()
+                .tabItem {
+                    Image(systemName: "fork.knife.circle.fill")
+                    Text("Recipes")
+                }
+
+        }
+        
     }
     
     struct ContentView_Previews: PreviewProvider {
